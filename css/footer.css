@@ -29,7 +29,7 @@
 }
 .site-footer a:hover
 {
-  color:#3366cc;
+  color:#f8f9fa;
   text-decoration:none;
 }
 .footer-links
@@ -43,11 +43,11 @@
 }
 .footer-links a
 {
-  color:#fff;
+  color:#f8f9fa;
 }
 .footer-links a:active,.footer-links a:focus,.footer-links a:hover
 {
-  color:#3366cc;
+  color:#f8f9fa;
   text-decoration:none;
 }
 .footer-links.inline li
@@ -71,6 +71,11 @@
 .copyright-text
 {
   margin:0
+}
+.copyright-text a
+{
+  color: white;
+  text-decoration: underline;
 }
 @media (max-width:991px)
 {
