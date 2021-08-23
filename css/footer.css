@@ -68,14 +68,30 @@
   border-radius:100%;
   background-color:#33353d
 }
+
+.copyright-text small{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 10px;
+}
+
+.copyright-text small a{
+  text-decoration: none;
+}
+
 .copyright-text
 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
   margin:0
 }
 .copyright-text a
 {
   color: white;
-  text-decoration: underline;
+  text-decoration: none;
 }
 @media (max-width:991px)
 {
